@@ -1,0 +1,38 @@
+@import '../../sass/main.scss';
+.social-container {
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+  background-color: $color-grey-dark;
+  padding: 25px 50px;
+  &--icon {
+    // min-height: 20rem;
+  }
+}
+
+.social-container {
+  // background: #eee;
+  padding: 20px 50px;
+  a {
+    margin: 2rem;
+    // padding: 2rem
+  }
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}

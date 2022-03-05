@@ -1,13 +1,11 @@
 import React from 'react';
 import { Header } from './../Header/Header';
-
-import Navigator from '../Navigator/Navigator';
 import Main from '../Main/Main';
+import SocialFollow from '../Social Media/SocialFollow';
 
-function Home(props) {
+function Home() {
   return (
     <>
-      <Navigator />
       <Header />
       <Main />
     </>
