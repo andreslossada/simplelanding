@@ -121,7 +121,7 @@ export default function Sidebar() {
         </ListItem>
       </NavLink>
       <Divider />
-      <NavLink to='/signin'>
+      <NavLink to='/signup'>
         <ListItem button key='login'>
           <ListItemIcon>
             <AccountCircleIcon />
