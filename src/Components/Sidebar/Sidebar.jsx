@@ -117,7 +117,16 @@ export default function Sidebar() {
           <ListItemIcon>
             <AccountCircleIcon />
           </ListItemIcon>
-          <ListItemText primary='Login' />
+          <ListItemText primary='Acceder' />
+        </ListItem>
+      </NavLink>
+      <Divider />
+      <NavLink to='/signin'>
+        <ListItem button key='login'>
+          <ListItemIcon>
+            <AccountCircleIcon />
+          </ListItemIcon>
+          <ListItemText primary='Crear Cuenta' />
         </ListItem>
       </NavLink>
     </Box>

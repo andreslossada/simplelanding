@@ -18,7 +18,7 @@ export function Form({}) {
                   id='name'
                   required
                 />
-                <label for='name' className='form__label'>
+                <label htmlFor='name' className='form__label'>
                   Full name
                 </label>
               </div>
@@ -31,7 +31,7 @@ export function Form({}) {
                   id='email'
                   required
                 />
-                <label for='email' className='form__label'>
+                <label htmlFor='email' className='form__label'>
                   Email address
                 </label>
               </div>
@@ -43,7 +43,7 @@ export function Form({}) {
                   id='cedula'
                   required
                 />
-                <label for='email' className='form__label'>
+                <label htmlFor='email' className='form__label'>
                   Cedula
                 </label>
               </div>
@@ -55,7 +55,7 @@ export function Form({}) {
                   id='phone'
                   required
                 />
-                <label for='phone' className='form__label'>
+                <label htmlFor='phone' className='form__label'>
                   Telefono
                 </label>
               </div>
@@ -68,7 +68,7 @@ export function Form({}) {
                     id='small'
                     name='size'
                   />
-                  <label for='small' className='form__radio-label'>
+                  <label htmlFor='small' className='form__radio-label'>
                     <span className='form__radio-button'></span>
                     Individual
                   </label>
@@ -81,7 +81,7 @@ export function Form({}) {
                     id='large'
                     name='size'
                   />
-                  <label for='large' className='form__radio-label'>
+                  <label htmlFor='large' className='form__radio-label'>
                     <span className='form__radio-button'></span>
                     Banca Asistencia
                   </label>
@@ -93,7 +93,7 @@ export function Form({}) {
                     id='large'
                     name='size'
                   />
-                  <label for='large' className='form__radio-label'>
+                  <label htmlFor='large' className='form__radio-label'>
                     <span className='form__radio-button'></span>
                     Corporativo
                   </label>

@@ -13,16 +13,16 @@ export default function SocialFollow() {
   return (
     <>
       <div className='social-container'>
-        <a href='#' classNameName='social-container--icon youtube social'>
+        <a href='#' className='social-container--icon youtube social'>
           <FontAwesomeIcon icon={faYoutube} size='3x' />
         </a>
-        <a href='#' classNameName='social-container--icon facebook social'>
+        <a href='#' className='social-container--icon facebook social'>
           <FontAwesomeIcon icon={faFacebook} size='3x' />
         </a>
-        <a href='#' classNameName='social-container--icon twitter social'>
+        <a href='#' className='social-container--icon twitter social'>
           <FontAwesomeIcon icon={faTwitter} size='3x' />
         </a>
-        <a href='#' classNameName='social-container--icon instagram social'>
+        <a href='#' className='social-container--icon instagram social'>
           <FontAwesomeIcon icon={faInstagram} size='3x' />
         </a>
       </div>

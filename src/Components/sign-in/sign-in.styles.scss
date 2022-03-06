@@ -1,0 +1,17 @@
+.sign-in {
+  // width: 380px;
+  // background-color: yellowgreen;
+  width: 35vw;
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  .title {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+}

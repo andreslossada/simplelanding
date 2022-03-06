@@ -35,9 +35,9 @@ export function Pricing() {
                   <p className='card__price-value'>$297</p>
                 </div>
                 <NavLink to={redirection}>
-                  <a href='#popup' className='btn btn--white'>
+                  <span href='#popup' className='btn btn--white'>
                     Comprar ahora
-                  </a>
+                  </span>
                 </NavLink>
               </div>
             </div>
@@ -69,10 +69,10 @@ export function Pricing() {
                   <p className='card__price-only'>Solo</p>
                   <p className='card__price-value'>$497</p>
                 </div>
-                <NavLink exact to={redirection}>
-                  <a href='#popup' className='btn btn--white'>
+                <NavLink to={redirection}>
+                  <span href='#popup' className='btn btn--white'>
                     Comprar ahora
-                  </a>
+                  </span>
                 </NavLink>
               </div>
             </div>
@@ -105,9 +105,9 @@ export function Pricing() {
                   <p className='card__price-value'>$897</p>
                 </div>
                 <NavLink to={redirection}>
-                  <a href='#popup' className='btn btn--white'>
+                  <span href='#popup' className='btn btn--white'>
                     Comprar ahora
-                  </a>
+                  </span>
                 </NavLink>
               </div>
             </div>
@@ -117,9 +117,9 @@ export function Pricing() {
 
       <div className='u-center-text u-margin-top-huge'>
         <NavLink to={redirection}>
-          <a href='#' className='btn btn--green'>
+          <span href='#' className='btn btn--green'>
             Empieza el proceso
-          </a>
+          </span>
         </NavLink>
       </div>
     </section>

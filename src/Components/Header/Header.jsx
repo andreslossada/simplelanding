@@ -4,7 +4,7 @@ import logo from '../../img/onsolutionlogo.png';
 export function Header() {
   return (
     <header className='header'>
-      <div classNameName='header__logo-box'>
+      <div className='header__logo-box'>
         <img src={logo} alt='Logo' className='header__logo' />
       </div>
 
@@ -16,9 +16,9 @@ export function Header() {
           </span>
         </h1>
         <NavLink to='/pricing'>
-          <a href='#' className='btn btn--white btn--animated'>
+          <p href='#' className='btn btn--white btn--animated'>
             Descubre nuestros planes
-          </a>
+          </p>
         </NavLink>
       </div>
     </header>
