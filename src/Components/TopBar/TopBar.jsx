@@ -10,10 +10,10 @@ import './topbar.styles.scss';
 import { NavLink } from 'react-router-dom';
 
 import Sidebar from '../Sidebar/Sidebar';
+import CustomButton from '../custom-button/custom-button.component';
 
 export default function ButtonAppBar() {
   const { currentUser } = useApp();
-  console.log(currentUser);
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -27,7 +27,9 @@ export default function ButtonAppBar() {
             sx={{ flexGrow: 1 }}
           ></Typography>
           {!currentUser ? (
-            <NavLink to='/login'>ACCEDER</NavLink>
+            <NavLink to='/login'>
+              <CustomButton>Acceder</CustomButton>
+            </NavLink>
           ) : (
             <div onClick={() => auth.signOut()} className='salir-btn'>
               CERRAR SESIÓN

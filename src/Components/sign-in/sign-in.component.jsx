@@ -7,7 +7,7 @@ import '../../sass/main.scss';
 import useApp from '../../store/Context';
 
 const SignIn = () => {
-  const { currentUser, setCurrentUser } = useApp();
+  // const { currentUser, setCurrentUser } = useApp();
 
   // const [userCredentials, setCredentials] = useState({email: '', password: ''})
 

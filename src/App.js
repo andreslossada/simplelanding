@@ -19,10 +19,9 @@ function App() {
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       setCurrentUser(user);
-      // console.log(currentUser);
     });
   }, []);
-  console.log(currentUser);
+
   // <Route path='/contacto' element={<Contact />} />
 
   return (

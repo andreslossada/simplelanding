@@ -15,7 +15,6 @@ export function LoginForm() {
               <div className='u-margin-bottom-medium'>
                 <h2 className='heading-secondary'>Accesa a tu cuenta</h2>
               </div>
-
               <div className='form__group'>
                 <input
                   type='email'
@@ -28,7 +27,6 @@ export function LoginForm() {
                   Direccion de correo
                 </label>
               </div>
-
               <div className='form__group'>
                 <input
                   type='password'
@@ -41,25 +39,24 @@ export function LoginForm() {
                   Clave secreta
                 </label>
               </div>
-
-              <div className=''>
-                <button className='btn btn--green u-margin-bottom-small'>
-                  Entrar &rarr;
-                </button>
-                <div className=' u-margin-bottom-small'>
-                  <CustomButton
-                    // className='u-margin-bottom-big'
-                    type='button'
-                    onClick={signInWithGoogle}
-                    isGoogleSignIn
-                  >
-                    Entrar con Google
-                  </CustomButton>
-                </div>
-                <NavLink className='btn btn--green ' to='/signup'>
-                  Crear Cuenta &rarr;
+              <div className='u-margin-bottom-small'>
+                <CustomButton type='button'>Entrar &rarr;</CustomButton>
+              </div>
+              <div className=' u-margin-bottom-small'>
+                <NavLink className='' to='/signup'>
+                  <CustomButton type='button'>Crear Cuenta &rarr;</CustomButton>
                 </NavLink>
               </div>
+              <div className=' u-margin-bottom-small'>
+                <CustomButton
+                  type='button'
+                  onClick={signInWithGoogle}
+                  isGoogleSignIn
+                >
+                  Entrar con Google
+                </CustomButton>
+              </div>
+              \
             </form>
           </div>
         </div>

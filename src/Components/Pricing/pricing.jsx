@@ -1,12 +1,22 @@
 import React from 'react';
+import useApp from '../../store/Context';
 import { NavLink } from 'react-router-dom';
 
 export function Pricing() {
+  const { currentUser } = useApp();
+  // console.log(currentUser.displayName);
+
   const redirection = '/form';
   return (
     <section className='section-tours' id='section-tours'>
       <div className='u-center-text u-margin-bottom-big'>
-        <h2 className='heading-secondary'>Planes mas populares</h2>
+        {currentUser ? (
+          <h2 className='heading-secondary'>
+            Elige tu plan {currentUser.displayName}
+          </h2>
+        ) : (
+          <h2 className='heading-secondary'>Planes mas populares</h2>
+        )}
       </div>
 
       <div className='row'>

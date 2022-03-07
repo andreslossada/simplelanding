@@ -139,7 +139,7 @@ function Main(props) {
                 alt='Person on a tour'
                 className='story__img'
               />
-              <figcaption className='story__caption'>Mary Smith</figcaption>
+              <figcaption className='story__caption'>Carlos Perez</figcaption>
             </figure>
             <div className='story__text'>
               <h3 className='heading-tertiary u-margin-bottom-small'>
@@ -164,7 +164,7 @@ function Main(props) {
                 alt='Person on a tour'
                 className='story__img'
               />
-              <figcaption className='story__caption'>Jack Wilson</figcaption>
+              <figcaption className='story__caption'>Eddy Perez</figcaption>
             </figure>
             <div className='story__text'>
               <h3 className='heading-tertiary u-margin-bottom-small'>
